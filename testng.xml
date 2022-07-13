@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="zmanda">
+<parameter name="SheetName" value="Zmanda" />
+	<parameter name="TC_id" value="101"></parameter>
+	<parameter name="Staging" value="TC101_ZmandaLogin" />	
+	
+<!-- "*****************************Origination Stage*************************************************** -->	
+  <test thread-count="5" name="ZQA_Login">
+    <classes>
+      <class name="com.ritm.testcases.Base"/>
+      <class name="com.ritm.testcases.LoginUser"/>
+      <class name="com.ritm.testcases.HomeTC"/>
+    </classes>
+  </test> <!-- ZQA -->
+</suite> <!-- zmanda -->

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-12T21:30:46 IST" name="Default suite" finished-at="2022-07-12T21:30:47 IST" duration-ms="57">
+    <groups>
+    </groups>
+    <test started-at="2022-07-12T21:30:46 IST" name="Default test" finished-at="2022-07-12T21:30:47 IST" duration-ms="57">
+      <class name="com.ritm.testcases.LoginUser">
+        <test-method is-config="true" signature="startdriver(java.lang.String,java.lang.String)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:46 IST" name="startdriver" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1657641646970" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'TC_id' is required by BeforeSuite on method startdriver but has not been marked @Optional or defined
+in C:\Users\ritma\AppData\Local\Temp\testng-eclipse--750981745\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'TC_id' is required by BeforeSuite on method startdriver but has not been marked @Optional or defined
+in C:\Users\ritma\AppData\Local\Temp\testng-eclipse--750981745\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:46 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1657641646983" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:47 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1657641647002" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:47 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1657641647027" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:47 IST" name="Login" data-provider="UserCredentials" finished-at="2022-07-12T21:30:47 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'TC_id' is required by BeforeSuite on method startdriver but has not been marked @Optional or defined
+in C:\Users\ritma\AppData\Local\Temp\testng-eclipse--750981745\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'TC_id' is required by BeforeSuite on method startdriver but has not been marked @Optional or defined
+in C:\Users\ritma\AppData\Local\Temp\testng-eclipse--750981745\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:47 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1657641647034" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="TeardownTest(org.testng.ITestContext)[pri:0, instance:com.ritm.testcases.LoginUser@158a8276]" started-at="2022-07-12T21:30:47 IST" name="TeardownTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1657641647038" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- com.ritm.testcases.LoginUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
