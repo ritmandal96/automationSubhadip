@@ -6,17 +6,17 @@
   <parameter name="SheetName" value="Zmanda"/>
   <test thread-count="5" name="ZQA_Login(failed)">
     <classes>
-      <class name="com.ritm.testcases.LoginUser">
+      <class name="com.ritm.testcases.HomeTC">
         <methods>
           <include name="beforeClass"/>
           <include name="TeardownTest"/>
           <include name="beforeMethod"/>
           <include name="startdriver"/>
-          <include name="Login"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="HomePg" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.ritm.testcases.LoginUser -->
+      </class> <!-- com.ritm.testcases.HomeTC -->
     </classes>
   </test> <!-- ZQA_Login(failed) -->
 </suite> <!-- Failed suite [zmanda] -->

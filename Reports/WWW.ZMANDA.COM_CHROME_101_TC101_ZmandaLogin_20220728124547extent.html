@@ -15,7 +15,7 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>extent.html</title>
+	<title>ExtentReports</title>
 
 	<style type='text/css'>
 	</style>
@@ -37,7 +37,7 @@
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>extent.html</span>
+		<span class='report-name'>ExtentReports</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -113,6 +113,41 @@
 		</div>
 	</section>
 
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='18.182%'><span class='strong'>2</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='18.182%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='63.636%'>7</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
 
 	<div class='subview-left left'>
 		
@@ -287,41 +322,6 @@
 	</div>
 	<!-- subview right -->
 
-
-<div id='test-view-charts' class='subview-full'>
-	<div id='charts-row' class='row nm-v nm-h'>
-		<div class='col s12 m6 l6 np-h'>
-			<div class='card-panel nm-v'>
-				<div class='left panel-name'>Tests</div>
-				<div class='chart-box'>
-					<canvas id='parent-analysis' width='100' height='80'></canvas>
-				</div>
-				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> test(s) passed</span>
-				</div>
-				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
-				</div>
-			</div>
-		</div>
-		
-		<div class='col s12 m6 l6 np-h'>
-			<div class='card-panel nm-v'>
-				<div class='left panel-name'>Steps</div>
-				<div class='chart-box'>
-					<canvas id='child-analysis' width='100' height='80'></canvas>
-				</div>
-				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='18.182%'><span class='strong'>2</span> step(s) passed</span>
-				</div>
-				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='18.182%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='63.636%'>7</span> others
-				</div>
-			</div>
-		</div>
-		
-	</div>
-</div>
 </div>
 <!-- test view -->
 <!-- category view -->
